@@ -1,22 +1,20 @@
-<?php
+<?php 
 $errorMSG = "";
 
-if (empty($_POST["booth_id"])) {
-    $errorMSG = "<li>Booth ID is required</<li>";
+if (empty($_POST["sid"])) {
+    $errorMSG = "<li>Admin ID is required</<li>";
 } else {
-    $booth_id=$_POST['booth_id'];
+    $stateid=$_POST['sid'];
 }
 
-if (empty($_POST["booth_otp"])) {
+if (empty($_POST["admin_id"])) {
     $errorMSG = $errorMSG."<li>OTP is required</<li>";
 } else {
-    $booth_otp=$_POST['booth_otp'];
+    $admin_id=$_POST['admin_id'];
 }
-
-include 'Values.php';
-$url=$web_host."/ValidateBooth.php";
-
-$data = array('postAuthKey' =>$post_auth_key,'boothId'=>$booth_id,'otp' => $booth_otp);
+include '../Values.php';
+$url=$web_host."/ShowElectionConstituency.php";
+$data = array('postAuthKey' =>$post_auth_key,'stateElectionId'=>$stateid,'adminId'=> $admin_id);
 $options = array(
     'http' => array(
         'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
@@ -24,10 +22,9 @@ $options = array(
         'content' => http_build_query($data)
     )
 );
-
 $context  = stream_context_create($options);
-$response = @file_get_contents($url, false, $context);
-if ($response === 'FALSE' or $response== NULL) { $errorMSG="<li>Sorry! an error occured. Please try again!</li>"; }
+$response = file_get_contents($url, false, $context);
+if ($response === 'FALSE' or $response==NULL) { $errorMSG="<li>Sorry! an error occured. Please try again!</li>"; }
 $json_array=json_decode($response, true); 
 
 if(empty($errorMSG)){
@@ -38,6 +35,8 @@ if(empty($errorMSG)){
 else{
 $failarray=array("code"=>10, "msg"=>$errorMSG);    
 echo json_encode($failarray);
-} 
+}
+
 
 ?>
+

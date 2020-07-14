@@ -1,0 +1,87 @@
+/*dark theme*/
+.switch-buttons__dark{
+ display: none;
+}
+.switch-buttons__light{
+  display: block;
+}
+.bodycolor{background-image:url(../images/demo16.jpg);color:#f7f7f7;font-family: 'Azo Sans Regular', sans-serif;}
+#screen{
+  background-color:#121212;}
+.navbar{
+  background-color: #1F1B24;}
+.navshadow{
+   box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 10px 0 rgba(255, 255, 255, 0.09);
+}
+.card{
+border-radius: 50px;
+box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.09);
+background-color: #1F1B24;
+text-align: center;
+}
+
+.card:hover {box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    inset -8px -8px 12px 0 rgba(255, 255, 255, 0.09); 
+  }
+.card:active{transform: translate3d(2px);}
+
+.stretched-link{color: white;font-size: 20px;}
+.stretched-link:hover{text-decoration: none;color: currentColor;}
+.surfacestyle{
+  background-color: #1F1B24;
+  border-radius: 50px; box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.09);
+}
+
+.primarytext{color:#BB86FC;}
+.secondarytext{color: #03DAC6;}
+.btn{color: #BB86FC;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25),
+    -3px -3px 5px 0 rgba(255, 255, 255, 0.09);
+  }
+.btn:hover{background-color: #BB86FC;color: #110934;
+box-shadow: inset 5px 5px 10px 0 rgba(0, 0, 0, 0.25),
+  inset -3px -3px 5px 0 rgba(255, 255, 255, 0.09);
+}
+.btn:active{ transform: translateY(3px);}
+.title{
+  color: #f7f7f7;
+  /*border-bottom: 2px solid #03DAC5;*/
+  text-shadow: 2px 2px 5px #8C78E8;
+}
+.textspace{letter-spacing: 1px;}
+#a{
+  text-shadow: none;
+  color:#BB86FC;
+}
+.heading-primary--main{color:#f7f7f7;}
+.media:hover{background-color: #1F1B24;}
+.nav-pills .nav-item .nav-link{
+    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.09);
+    background-color: #1F1B24;
+}
+.nav-pills .nav-item :hover{ 
+box-shadow: inset 8px 8px 10px 0 rgba(0, 0, 0, 0.25),
+    inset -6px -6px 8px 0 rgba(255, 255, 255, 0.09)}
+.nav-pills .nav-item .active{
+    background-color:#ffc14d;
+}
+.footer{background-color:#1F1B24;}
+.form-control, .form-control:read-only{background-color:#1F1B24;}
+.form-control:focus{background-color:#1F1B24;
+  outline: none;
+ box-shadow: inset 8px 8px 15px 0 rgba(0, 0, 0, 0.25),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.09);
+    color: #03DAC6; }
+.boothhead{background-color: #1a1a1a;}
+.table{color:#f7f7f7;}
+.modal-content{
+background-color: #1F1B24;
+color:white;
+}
+.modal-content a{
+color:white;
+}

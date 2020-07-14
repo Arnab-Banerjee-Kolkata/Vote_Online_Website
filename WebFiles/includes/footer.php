@@ -1,0 +1,1 @@
+<div class="py-2 text-center footer">&copy; Copyright Reserved</div>

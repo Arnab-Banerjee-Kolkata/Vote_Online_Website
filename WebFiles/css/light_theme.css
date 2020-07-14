@@ -1,0 +1,80 @@
+/*light theme*/
+.switch-buttons__light{
+ display: none;
+}
+.bodycolor{background-image:url(../images/demo3.jpg);color:black;font-family:'Azo Sans Regular', sans-serif;}
+#screen{
+  background-color:#e6e6e6;}
+.navbar{
+  background-color: #E5E0FA;}
+.navshadow{
+   box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 10px 0 rgba(255, 255, 255, 0.4);
+}
+.card{
+border-radius: 50px;
+box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
+background-color: #E5E0FA;
+text-align: center;
+}
+
+.card:hover {
+    box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.2),
+    inset -8px -8px 12px 0 rgba(255, 255, 255, 0.4); 
+  }
+.card:active{transform: translate3d(2px);}
+
+.stretched-link{color: black;font-size: 20px;}
+.stretched-link:hover{text-decoration: none;color: currentColor;}
+.surfacestyle{
+  background-color: #E5E0FA;
+  border-radius: 50px; box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
+}
+.primarytext{color:#6200EE;}
+.secondarytext{color: #018786;}
+.btn{color: #6200EE;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2),
+    -3px -3px 5px 0 rgba(255, 255, 255, 0.4);
+  }
+.btn:hover{background-color:#018786;
+  color: #ffffff;
+  box-shadow:inset 5px 5px 10px 0 rgba(0, 0, 0, 0.2),
+  inset -3px -3px 5px 0 rgba(255, 255, 255, 0.4);
+}
+.btn:active{ transform: translateY(3px);}
+.title{
+  color: #000000;
+  text-shadow: 2px 2px 5px #8C78E8;
+}
+.textspace{letter-spacing: 1px;}
+#a{
+  text-shadow: none;
+  color:#6200EE;
+}
+
+.media:hover{background-color:#E5E0FA;}
+.nav-pills .nav-item .nav-link{
+    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.4);
+    background-color: #E5E0FA;
+}
+.nav-pills .nav-item :hover{ 
+box-shadow: inset 8px 8px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 8px 0 rgba(255, 255, 255, 0.4);}
+.nav-pills .nav-item .active{
+    background-color:#ffc14d;
+}
+.footer{background-color:#E5E0FA;}
+.form-control, .form-control:read-only{background-color:#E5E0FA;}
+.form-control:focus{
+	  background-color:#E5E0FA;
+	  outline: none;
+ 	box-shadow: inset 8px 8px 15px 0 rgba(0, 0, 0, 0.25),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.09);
+    color: #018786; }
+.boothhead{background-color: #f8f9fa;}
+.modal-content a{
+color:black;
+}
