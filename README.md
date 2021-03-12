@@ -2,6 +2,7 @@
 <br>
 Website for the remote booth where the voters can cast their votes from any smart phone. Multiple voters can cast their votes from a single phone.
 <br>
+
 # Screenshots
 
 <table width="500" border="0" cellpadding="5">
@@ -78,11 +79,7 @@ Website for the remote booth where the voters can cast their votes from any smar
 
 https://drive.google.com/file/d/1-8MAnlsEy63o3watSNZj3OkcaUjzvpmV/view?usp=sharing
 
-
-
-<br>
-<br>
-<b>SECURITY MEASURES</b><br><br>
+# SECURITY MEASURES
 
 1. postAuthKey: Authentication key to validate that a request is made from our app or website<br>
 2. smsAuthKey: Authentication key to validate that our app or website wants to use the paid sms service<br>
@@ -147,6 +144,7 @@ https://drive.google.com/file/d/1-8MAnlsEy63o3watSNZj3OkcaUjzvpmV/view?usp=shari
 <br>
 34. Unique token to be sent with panel which will be required to cast vote: Attacker cannot cast a vote from other device in the small time window allotted for voting
 <br>
+
 # App Link
 https://github.com/Arnab-Banerjee-Kolkata/Vote_Online_App/blob/master/app/release/app-release.apk <br>
 
